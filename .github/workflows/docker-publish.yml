@@ -46,3 +46,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           repository: capino/${{ github.event.repository.name }}
+          readme-filepath: ./README.md
