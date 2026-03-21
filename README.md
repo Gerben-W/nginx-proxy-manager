@@ -16,6 +16,8 @@ To use your custom ACME, add the following to your docker-compose.yml file:
       - ACME_SERVER="https://step-ca.example.com/acme/acme/directory"
       - ACME_EAB_KID="yourkid"
       - ACME_EAB_HMAC_KEY="yourkey"
+      ...
     volumes:
       - ./certs:/usr/local/share/ca-certificates:ro
+      ...
 ```
