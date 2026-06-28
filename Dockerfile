@@ -1,3 +1,5 @@
+#Version: 2.15.1
+
 FROM docker.io/jc21/nginx-proxy-manager:latest
 
 COPY 80-custom.sh /etc/s6-overlay/s6-rc.d/prepare/80-custom.sh

@@ -1,4 +1,5 @@
 # nginx-proxy-manager
+# updated 2026-06-02
 
 This docker image uses the jc21's nginx-proxy-manager as starting point, but can add a custom ACME.</br>
 <a href="https://github.com/NginxProxyManager/nginx-proxy-manager" target="_blank">https://github.com/NginxProxyManager/nginx-proxy-manager</a></p>
